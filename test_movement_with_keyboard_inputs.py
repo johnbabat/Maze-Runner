@@ -1,4 +1,4 @@
-#To be able to test that the robot's motion functionality after build without adding code
+#To be able to test that the robot's motion functionality after build before the code for automation
 #Note: GPIO setmode was used here and not BCM
 
 import RPi.GPIO as GPIO
