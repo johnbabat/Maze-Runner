@@ -1,5 +1,4 @@
-# Maze-Runner
-A robot built with raspberry pi to probe, learn and solve any maze on it's own
+Autonomous Maze Navigation Robot Using a Raspberry pi.
 
 ##Assumptions:
 
@@ -11,5 +10,9 @@ The maze is color coded (This is not a necessary assumption as the algorithm can
 ##Components used:
 
 Ultrasonic sensors (for obstacle detection)
-Color Sensors (for color detection)
-##NOTE: This is not a necessary assumption as the algorithm can work without the color code
+Color Sensor, TCS3200, (for color detection)
+##NOTE:
+
+The file, mazerunner.py, was successful during simulation but had errors when synchronising with the real life robot in the code.
+The two python files, tourney.py and mazerunner.py, are to be integrated to work together.
+This is not a necessary assumption as the algorithm can work without the color code
